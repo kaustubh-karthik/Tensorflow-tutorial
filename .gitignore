@@ -1,1 +1,4 @@
-.DS_Store .vscode/ gtsrb/ training_folder/
+.DS_Store
+.vscode/
+gtsrb/
+training_folder/
