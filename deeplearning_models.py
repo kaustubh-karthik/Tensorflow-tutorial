@@ -102,6 +102,7 @@ def fish_model():
     # Causes 'requires input with multiple of x'
     inp = Input(shape = (51, 50, 3))
 
+    # Convolutes the image to detect patterns
     x = Conv2D(64, (3, 3), activation = 'relu')(inp)
     x = Conv2D(64, (3, 3), activation = 'relu')(x)
     x = MaxPool2D()(x)
